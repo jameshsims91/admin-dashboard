@@ -19,6 +19,7 @@
   --popup-border: #e2e8f0;
   --popup-hover-bg: #f8fafc;
   --popup-hover-text: #2563eb;
+  --popup-header-text: #1e293b;
 }
 
 [data-theme="dark"] {
@@ -37,6 +38,7 @@
   --popup-border: #334155;
   --popup-hover-bg: #334155;
   --popup-hover-text: #60a5fa;
+  --popup-header-text: #f1f5f9;
 }
 
 [data-theme="dark"] .ctn-btn {
@@ -216,7 +218,7 @@ h1, h2, h3, h4, p, span, input {
   padding: 14px 16px;
   font-weight: 600;
   font-size: 14px;
-  color: #1e293b;
+  color: var(--popup-header-text);
   border-bottom: 1px solid var(--popup-border);
 }
 
