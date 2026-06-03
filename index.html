@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project: Admin Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <aside class="sidebar">
+      <div class="logo-container">
+        <img src="pics/box.svg" alt="" width="30" height="30" class="sidebar-logo" />
+        <span class="logo-text">
+          Dashboard
+        </span>
+      </div>
+      <nav class="nav-group">
+        <a href="#" class="nav-link active">
+          <img src="pics/home.svg" alt="" class="sidebar-icon" />
+          Home
+        </a>
+        <a href="#" class="nav-link">
+          <img src="pics/card-account-details-outline.svg" alt="" class="sidebar-icon" />
+          Profile
+        </a>
+        <a href="#" class="nav-link">
+          <img src="pics/message-reply.svg" alt="" class="sidebar-icon" />
+          Messages
+        </a>
+        <a href="#" class="nav-link">
+          <img src="pics/clock-time-four.svg" alt="" class="sidebar-icon" />
+          History
+        </a>
+        <a href="#" class="nav-link">
+          <img src="pics/file-multiple-outline.svg" alt="" class="sidebar-icon" />
+          Tasks
+        </a>
+        <a href="#" class="nav-link">
+          <img src="pics/account-circle-outline.svg" alt="" class="sidebar-icon" />
+          Communities
+        </a>
+      </nav>
+      <nav class="nav-group settings-group">
+        <a href="#" class="nav-link">
+          <img src="pics/cog.svg" alt="" class="sidebar-icon" />
+          Settings
+        </a>
+        <a href="#" class="nav-link">
+          <img src="pics/head-question.svg" alt="" class="sidebar-icon" />
+          Support
+        </a>
+        <a href="#" class="nav-link">
+          <img src="pics/shield-check.svg" alt="" class="sidebar-icon" />
+          Privacy
+        </a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="header">
+        <div class="search-and-bar-wrapper">
+          <button class="search-btn" aria-label="Search">
+            <img src="pics/magnify.svg" alt="" width="20" height="20" class="search-icon-image">
+          </button>
+          <div class="search-container">
+            <input type="search" placeholder="Search projects, tasks, or users..." class="search-input">
+          </div>
+        </div>
+        <div class="user-profile-top">
+          <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle dark mode">
+            <img src="pics/light-switch-off.svg" alt="" width="20" height="20" class="header-icon" />
+          </button>
+          <img src="pics/bell-ring-outline.svg" alt="" width="20" height="20" class="header-icon" />
+          <img src="pics/account-circle-outline.svg" alt="User Profile" class="avatar-small" />
+          <span class="user-display-name">James Sims</span>
+        </div>
+        <div class="welcome-message">
+          <img src="pics/account-circle-outline.svg" alt="" class="avatar-large" />
+          <div class="greeting-text">
+            <span class="greeting-sub">Hi there,</span>
+            <h1 class="greeting-main">James Sims (@jsims91)</h1>
+          </div>
+        </div>
+        <div class="action-buttons">
+          <button class="cta-btn">New</button>
+          <button class="cta-btn">Upload</button>
+          <button class="cta-btn">Share</button>
+        </div>
+      </header>
+    
+      <section class="projects-section">
+        <h2>Your Projects</h2>
+        <div class="projects-grid">
+          <div class="card">
+            <div class="card-content">
+              <h3>Super Cool Project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusamus necessitatibus earum dicta, at sint?
+              </p>
+            </div>
+            <div class="card-actions">
+              <button class="icon-btn" aria-label="Star"><img src="pics/star-plus.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Watch"><img src="pics/eye-plus-outline.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Share"><img src="pics/share-all-outline.svg" alt="" width="22" height="22"/></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h3>Less Cool Project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, laudantium laborum totam alias, perferendis magnam autem eius ab illum nobis vel odit excepturi. Autem, exercitationem nisi!
+              </p>
+            </div>
+            <div class="card-actions">
+              <button class="icon-btn" aria-label="Star"><img src="pics/star-plus.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Watch"><img src="pics/eye-plus-outline.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Share"><img src="pics/share-all-outline.svg" alt="" width="22" height="22"/></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h3>Impossible App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid maiores dolor fugiat vitae.
+              </p>
+            </div>
+            <div class="card-actions">
+              <button class="icon-btn" aria-label="Star"><img src="pics/star-plus.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Watch"><img src="pics/eye-plus-outline.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Share"><img src="pics/share-all-outline.svg" alt="" width="22" height="22"/></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h3>Easy Peasy App</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, sapiente deleniti optio quae veniam itaque fugiat illum nulla enim! Voluptatem, amet possimus.
+              </p>
+            </div>
+            <div class="card-actions">
+              <button class="icon-btn" aria-label="Star"><img src="pics/star-plus.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Watch"><img src="pics/eye-plus-outline.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Share"><img src="pics/share-all-outline.svg" alt="" width="22" height="22"/></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h3>Ad Blocker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptas rem illum fuga totam commodi quos quo consectetur.
+              </p>
+            </div>
+            <div class="card-actions">
+              <button class="icon-btn" aria-label="Star"><img src="pics/star-plus.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Watch"><img src="pics/eye-plus-outline.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Share"><img src="pics/share-all-outline.svg" alt="" width="22" height="22"/></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h3>Money Maker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vero deserunt at iure commodi dignissimos animi beatae sit sunt quasi! Tenetur, repudiandae aperiam?
+              </p>
+            </div>
+            <div class="card-actions">
+              <button class="icon-btn" aria-label="Star"><img src="pics/star-plus.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Watch"><img src="pics/eye-plus-outline.svg" alt="" width="22" height="22" /></button>
+              <button class="icon-btn" aria-label="Share"><img src="pics/share-all-outline.svg" alt="" width="22" height="22"/></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="right-sidebar">
+        <div class="announcements-section">
+          <h2>Announcements</h2>
+          <div class="panel announcements-panel">
+            <div class="announcement-item">
+              <h4>Site Maintenance</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum alias odio obcaecati suscipit.
+              </p>
+            </div>
+            <div class="announcement-item">
+              <h4>Community Share Day</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae ratione quia explicabo dolore.
+              </p>
+            </div>
+            <div class="announcement-item">
+              <h4>Updated Privacy Policy</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quisquam minima quod ab libero doloremque voluptatum.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="trending-section">
+          <h2>Trending</h2>
+          <div class="panel trending-panel">
+            <div class="profile-row">
+              <img src="pics/account-circle-outline.svg" alt="" class="avatar1" />
+              <div class="profile-info">
+                <span class="username">
+                  @tegan
+                </span>
+                <span class="project-name">
+                  World Peace Builder
+                </span>
+              </div>
+            </div>
+            <div class="profile-row">
+              <img src="pics/account-circle-outline.svg" alt="" class="avatar2" />
+              <div class="profile-info">
+                <span class="username">
+                  @matt
+                </span>
+                <span class="project-name">
+                  Super Cool Project
+                </span>
+              </div>
+            </div>
+            <div class="profile-row">
+              <img src="pics/account-circle-outline.svg" alt="" class="avatar3" />
+              <div class="profile-info">
+                <span class="username">
+                  @sara
+                </span>
+                <span class="project-name">
+                  Life Changing App
+                </span>
+              </div>
+            </div>
+            <div class="profile-row">
+              <img src="pics/account-circle-outline.svg" alt="" class="avatar4" />
+              <div class="profile-info">
+                <span class="username">
+                  @andre
+                </span>
+                <span class="project-name">
+                  No Traffic Maker
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+    <!-- Put this at the very bottom of your index.html file -->
+  <script>
+    const btn = document.getElementById('themeToggle');
+    
+    // 1. Read existing saved preference on page load
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+
+    // 2. Trigger the theme switch on every click
+    btn.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      
+      if (currentTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+  </script>
+</body>
+</html>
