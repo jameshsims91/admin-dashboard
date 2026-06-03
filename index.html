@@ -71,7 +71,23 @@
           <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle dark mode">
             <img src="pics/light-switch-off.svg" alt="" width="20" height="20" class="header-icon" />
           </button>
-          <img src="pics/bell-ring-outline.svg" alt="" width="20" height="20" class="header-icon" />
+          <div class="bell-wrapper">
+            <input type="checkbox" id="bell-toggle" class="bell-checkbox">
+            <label for="bell-toggle" class="bell-trigger">
+              <img src="pics/bell-ring-outline.svg" alt="" width="20" height="20" class="header-icon" />
+              <span class="bell-badge">3</span>
+            </label>
+
+            <div class="notification-popup">
+              <div class="popup-arrow"></div>
+              <div class="popup-header">Notifications</div>
+              <ul class="popup-body">
+                <li>New comment on your project</li>
+                <li>Task assigned by Admin</li>
+                <li>System update complete</li>
+              </ul>
+            </div>
+          </div>
           <img src="pics/account-circle-outline.svg" alt="User Profile" class="avatar-small" />
           <span class="user-display-name">James Sims</span>
         </div>
